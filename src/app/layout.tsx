@@ -16,6 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <NavLink href="/">ダッシュボード</NavLink>
           <NavLink href="/members">メンバー</NavLink>
           <NavLink href="/events">イベント</NavLink>
+          <NavLink href="/progress">学習進捗</NavLink>
         </nav>
         <main className="flex-1 p-8 overflow-y-auto">{children}</main>
       </body>
